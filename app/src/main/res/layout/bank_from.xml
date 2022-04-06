@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+ android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <include layout="@layout/white_header" android:id="@+id/layhist"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp"
+        tools:ignore="MissingConstraints">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Payment Detail"
+    android:textSize="18dp"
+    android:layout_marginTop="10dp"
+    android:fontFamily="@font/avn_bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Bank Name: G3 INTEGRATED RESOURCES SERV. LTD"
+            android:textSize="15dp"
+            android:fontFamily="@font/avn_bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Bank Account Name: Zenith Bank"
+            android:textSize="15dp"
+            android:fontFamily="@font/avn_bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Account Number: 1013837199"
+            android:textSize="15dp"
+            android:fontFamily="@font/avn_bold"/>
+        <TextView
+            android:id="@+id/servicecharge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:fontFamily="@font/avn_bold"/>
+        <TextView
+            android:id="@+id/amoubt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:fontFamily="@font/avn_bold"/>
+
+        <TextView
+            android:id="@+id/totalamt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:fontFamily="@font/avn_bold"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Customer Form"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/avn_bold"/>
+        <EditText
+            android:id="@+id/nam"
+            android:layout_width="fill_parent"
+            android:layout_height="36dp"
+            android:hint="Customer Name"
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/textbox"
+            android:fontFamily="@font/avn"
+            />
+
+        <EditText
+            android:id="@+id/addres"
+            android:layout_width="fill_parent"
+            android:layout_height="36dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="14dp"
+            android:fontFamily="@font/avn"
+            android:hint="Bank Name"
+            android:background="@drawable/textbox"
+            />
+        <EditText
+            android:id="@+id/pas"
+            android:layout_width="fill_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="10dp"
+            android:textSize="14dp"
+            android:inputType="number"
+            android:hint="Amount Paid"
+            android:fontFamily="@font/avn"
+            android:paddingLeft="10dp"
+            android:background="@drawable/textbox"
+            />
+
+        <Button
+            android:id="@+id/updatebtn"
+            android:layout_width="fill_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="10dp"
+            android:text="Submit"
+            android:fontFamily="@font/avn_bold"
+            android:textColor="@color/whitecolor"
+            android:background="@drawable/button"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
